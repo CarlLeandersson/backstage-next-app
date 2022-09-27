@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-next-app
+  description: Skeleton for a Next.js app.
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: Carl
